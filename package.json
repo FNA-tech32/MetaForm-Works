@@ -1,0 +1,23 @@
+{
+  "name": "metaform-works",
+  "version": "1.0.0",
+  "description": "Metaform Works - Creative Digital Agency Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "serve . -l 3000"
+  },
+  "keywords": [
+    "agency",
+    "digital-agency",
+    "portfolio",
+    "landing-page",
+    "metaform-works"
+  ],
+  "author": "Metaform Works",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
