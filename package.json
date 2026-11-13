@@ -4,8 +4,8 @@
   "description": "Metaform Works - Creative Digital Agency Website",
   "main": "index.html",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "node init && node server.js",
+    "dev": "node init && node server.js",
     "serve": "serve . -l 3000",
     "sass": "sass src/scss:css --style=expanded --no-source-map",
     "sass:watch": "sass --watch src/scss:css --style=expanded --no-source-map"
@@ -19,6 +19,9 @@
   ],
   "author": "Metaform Works",
   "license": "MIT",
+  "allowScripts": {
+    "@parcel/watcher": true
+  },
   "devDependencies": {
     "sass": "^1.108.2",
     "serve": "^14.2.4"
