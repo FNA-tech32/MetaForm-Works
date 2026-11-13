@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "serve": "serve . -l 3000"
+    "serve": "serve . -l 3000",
+    "sass": "sass src/scss:css --style=expanded --no-source-map",
+    "sass:watch": "sass --watch src/scss:css --style=expanded --no-source-map"
   },
   "keywords": [
     "agency",
@@ -18,6 +20,7 @@
   "author": "Metaform Works",
   "license": "MIT",
   "devDependencies": {
+    "sass": "^1.108.2",
     "serve": "^14.2.4"
   }
 }
